@@ -61,7 +61,7 @@
 	        <div class="col-md-4">
 	        	<?php if(is_active_sidebar('box3')) : ?>
 	        		<?php dynamic_sidebar('box3');?>
-	          <?php endif;?>
+	            <?php endif;?>
 	        </div>
 	      </div>
 	    </div>
@@ -71,16 +71,19 @@
         <h2 class="team-txt-head">TEAM</h2>
         <div class="row">
           <div class="col-md-4 col-sm-4">
-            <img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3>
+            <?php if(is_active_sidebar('box4')) : ?>
+	        		<?php dynamic_sidebar('box4');?>
+	        <?php endif;?>
+	      </div>
+          <div class="col-md-4 col-sm-4">
+            <?php if(is_active_sidebar('box5')) : ?>
+	        	<?php dynamic_sidebar('box5');?>
+	        <?php endif;?>
           </div>
           <div class="col-md-4 col-sm-4">
-              <img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <img src="img/Team-image-home.jpg" class=" team-img">
-            <h3 class="team-txt">Nicole Wessels</h3>
+            <?php if(is_active_sidebar('box6')) : ?>
+	        	<?php dynamic_sidebar('box6');?>
+	        <?php endif;?>
           </div>          
         </div>
         <div class="row">

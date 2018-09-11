@@ -3,6 +3,9 @@ Theme name: About A Chance
 Author: Rasool Riffel
 version: 1.0
 */
+html{
+    margin-top: 0!important;
+}
 body{
     font-family: Myriad Pro, sans-serif  ;
     font-size: 16px;
@@ -109,7 +112,7 @@ hr{
     color: #477838;
 }
 .btn-col{
-    width: 92%;
+    width: 97%;
     padding-right: 0;
 }
 .don-nav{
@@ -144,7 +147,7 @@ hr{
 .wid-icon{
     font-size: 65px;
     color: #477838;
-    margin-left: 110px;
+    margin-left: 0;
 }
 
 /*Team div*/
