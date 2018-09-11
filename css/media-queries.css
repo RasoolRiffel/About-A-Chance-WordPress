@@ -11,11 +11,6 @@
 	.don-nav{
     	width: 730px
     }
-    /*widgets*/
-    .wid-icon{
-	    margin-left: 330px;
-	}
-
 	/*team div*/
 	.team-img{
 	    margin-left: 5px;
@@ -65,10 +60,6 @@
     }
     .menu-btn{
     	display: none;
-	}
-	/*widgets*/
-    .wid-icon{
-	    margin-left: 110px;
 	}
 	/*team div*/
 	.team-img{
