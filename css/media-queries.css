@@ -1,0 +1,129 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	/*Nav bar*/
+	.btn-col{
+    	width: 100%;
+    	padding-right: 0;
+	}
+	.don-nav{
+    	width: 730px
+    }
+    /*widgets*/
+    .wid-icon{
+	    margin-left: 330px;
+	}
+
+	/*team div*/
+	.team-img{
+	    margin-left: 5px;
+	}
+	/*Call to Action buttons*/
+	.ftr-btn{
+		margin-left: 0;
+	}
+	.ftr-p{
+    	font-size: 25px;
+    	margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.ftr-bar{
+		text-align: center;
+	}
+	.about-txt{
+	    max-width: 530px;
+	    margin-left: 90px; 
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/*contact info and social media icons*/ 
+	.con-top{
+		text-align: left;
+	}
+	.header-icons{
+    	display: inline-block;
+   		color: #477838;
+    	font-size: 20px;
+    	padding-left: 20px;
+	}
+    /*Logo and Nav bar*/
+	.nav-col{
+		display: inline-block;
+    	width: 57.5%;
+	}
+	.btn-col{
+    	width: 8%;
+    	padding-right: 0;
+	}
+	.don-nav{
+    	width: 100px;
+    }
+    .menu-btn{
+    	display: none;
+	}
+	/*widgets*/
+    .wid-icon{
+	    margin-left: 110px;
+	}
+	/*team div*/
+	.team-img{
+    	margin-left: 20px;
+	}
+	.ftr-cta{
+	    margin-top: 0;
+	    text-align: left;
+	}
+	.ftr-bar{
+		text-align: left;
+	}
+	.ftr-btn{
+    	max-width: 180px;
+	}
+	.about-txt{
+	    max-width: 630px;
+	    margin-left: 140px; 
+	}
+	.left{
+		float: left!important;
+	}
+	.right{
+		float: right!important;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /*Logo and Nav bar*/
+	.logo-head{
+    	max-width: 360px;
+	}
+	.nav-col{
+    	width: 56.5%;
+	}
+	.btn-col{
+    	width: 8%;
+    	padding-right: 0;
+	}
+	/*widgets*/
+    .wid-icon{
+	    margin-left: 0;
+	}
+	/*team div*/
+	.team-img{
+    	margin-left: 50px;
+	}
+	/*footer*/
+	.ftr-btn{
+	    margin-left: 0;
+	    max-width: 230px
+	}
+	.about-txt{
+	    max-width: 760px;
+	    margin-left: 190px; 
+	}
+}
