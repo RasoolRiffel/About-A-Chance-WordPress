@@ -1,3 +1,4 @@
+
  <footer>
  	<div class="container">
       <div class="row footer">
@@ -35,7 +36,7 @@
             <h2 class="ftr-txt-head">CONTACT</h2>
             <span class="quick-links">
               <p><strong>EMAIL:</strong> info@fuegotacos.co.za</p>
-              <p>PHONE: 074 042 6400</p>
+              <p><strong>PHONE:</strong>  074 042 6400</p>
 
               <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">

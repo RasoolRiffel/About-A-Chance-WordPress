@@ -45,5 +45,3 @@
 		<div>
 	    	<img src="<?php bloginfo('template_url'); ?>/img/Video-image-home.jpg" class="banner-img" alt="About a Chance Home Video">
 	    </div>
-
-	    <div class="container">

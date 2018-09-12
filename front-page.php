@@ -88,7 +88,7 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <a href="#"><h3 class="team-txt">Review full Team</h3></a>
+            <a href="#"><h3 class="team-txt rev">Review full Team</h3></a>
           </div>
         </div>
       </div>

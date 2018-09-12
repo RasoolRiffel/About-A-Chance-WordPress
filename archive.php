@@ -1,3 +1,8 @@
+<?php
+/* 
+Template Name: Archives
+*/
+?>
 <?php 
 
 get_header();?>

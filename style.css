@@ -9,12 +9,12 @@ body{
 }
 h1{
     font-size: 45px;
-    font-weight: bold;
+    font-weight: bold!important;
     text-align: center;
 }
 h2{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 25px!important;
+    font-weight: bold!important;
 }
 h3{
     font-size: 20px;
@@ -23,7 +23,7 @@ h3{
 hr{
     background-color: #477838;
     border: none;
-    height: 1px;
+    height: 1px!important;
 }
 /* Email and social media icons */
 .con-top{
@@ -45,16 +45,23 @@ hr{
 
 .site-nav ul:before, .site-nav ul:after{content:""; display: table;}
 .site-nav ul:after{clear: both;}
-.site-nav ul{*zoom:1;}
 
 .site-nav ul li{
     list-style: none;
     float: right;
 }
-.site-nav .menu-item-has-children>.sub-menu li {
-    display: none;
+.site-nav .menu-item-has-children>.sub-menu li{
+    float: initial;
+    border:0;
+    margin: 0;
+    background-color: #fff;
 }
-.site-nav .menu-item-has-children>.sub-menu li:hover{
+.site-nav .menu-item-has-children>.sub-menu {
+    display: none;
+    position: absolute;
+    
+}
+.site-nav .menu-item-has-children:hover>.sub-menu{
     display: block;
 }
 
@@ -74,6 +81,7 @@ hr{
 }
 .site-header nav ul li a:hover{
     color: #477838;
+    background-color: #c1c1c1;
 }
 .site-header nav ul li.current-menu-item a:link,
 .site-header nav ul li.current-menu-item a:visited{
@@ -81,7 +89,18 @@ hr{
     font-weight: bold;
 }
 
-
+.menu li.has-children > a:after {
+ color: #2d2d2d;
+ content: ' ▼';
+ font-size: 10px;
+ vertical-align: 1px;
+}
+.menu li li.has-children > a:after {
+ color: #2d2d2d;
+ content: ' ►';
+ font-size: 10px;
+ vertical-align: 1px;
+}
 
 
 
@@ -158,10 +177,13 @@ hr{
 }
 .team-txt{
     color: #ffffff;
-    text-align: center;
+    margin-left: 60px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 40px
+}
+.rev{
+    text-align: center;
 }
 .team-txt-head{
     margin-top: 25px;    
@@ -189,7 +211,7 @@ hr{
 .ftr-cta{
     margin-top: 0;
     text-align: center;
-
+    font-size: 20px!important;
 }
 .ftr-p{
     font-size: 25px;
@@ -230,7 +252,6 @@ input{
 .ftr-icons{
     color: #ffffff;
     font-size: 24px;
-    margin-top: 85px
 }
 .ftr-info{
     margin-top: 20px;
@@ -279,4 +300,8 @@ input{
 }
 .head-col{
     width:700px;
+}
+/*what we do page*/
+.wwd{
+    margin-left: 200px;
 }
