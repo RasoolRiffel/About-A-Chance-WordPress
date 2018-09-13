@@ -1,5 +1,5 @@
 /*
-Theme name: About A Chance
+Theme name: About A Chance #2
 Author: Rasool Riffel
 version: 1.0
 */
@@ -200,6 +200,9 @@ p{
 }
 .rev{
     text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: bold;
 }
 .rev:hover{
     text-decoration: none;
