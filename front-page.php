@@ -17,8 +17,8 @@
 	  	<div class="container">
 		  	<header class="site-header">
 		  		<div class="row">
-			  		<div class="col-md-4">
-			  			<a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" title="<?php bloginfo('name') ?>" class="logo-head"> </a>
+			  		<div class="col-md-4 logo-col">
+			  			<a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" title="<?php bloginfo('name') ?>" class="logo-head"> </a>
 			  		</div>
 
 			  		<nav class="site-nav col-md-6 nav-col">
@@ -43,8 +43,12 @@
 		</div>
 
 		<div>
-	    	<img src="<?php bloginfo('template_url'); ?>/img/Video-image-home.jpg" class="banner-img" alt="About a Chance Home Video">
+	    	<img src="<?php bloginfo('template_url'); ?>/assets/img/Video-image-home.jpg" class="banner-img" alt="About a Chance Home Video">
 	    </div>
+
+	    <style type="text/css">
+             h1 { color: <?php echo get_theme_mod('header_color', '#000000'); ?>; }
+         </style>
 
 	    <div class="container">
 	      <div class="row">

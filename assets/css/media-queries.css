@@ -91,14 +91,17 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     /*Logo and Nav bar*/
+    .logo-col{
+    	max-width: 25.333333%; 
+    }
 	.menu-btn{
     	display: none;
 	}
 	.logo-head{
-    	max-width: 360px;
+    	max-width: 290px;
 	}
 	.nav-col{
-    	width: 56.5%;
+    	width: 65.5%;
     	display: inline-block;
 	}
 	.btn-col{

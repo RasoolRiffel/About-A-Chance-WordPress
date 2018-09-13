@@ -4,7 +4,7 @@
 	    <meta charset="<?php bloginfo('charset');?>">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <title><?php bloginfo('name'); ?> | <?php the_title(); ?></title>
+	    <title><?php bloginfo('name'); ?></title>
 		<?php wp_head();?>
 	</head>
   </head>
@@ -45,3 +45,53 @@
 		<div>
 	    	<img src="<?php bloginfo('template_url'); ?>/assets/img/Video-image-home.jpg" class="banner-img" alt="About a Chance Home Video">
 	    </div>
+
+	    <div class="container">
+	      <div class="row">
+	        <div class="col-md-4">
+				<?php if(is_active_sidebar('box1')) : ?>
+					<?php dynamic_sidebar('box1');?>
+				<?php endif;?>
+	        </div>
+	        <div class="col-md-4">
+				<?php if(is_active_sidebar('box2')) : ?>
+					<?php dynamic_sidebar('box2');?>
+				<?php endif;?>
+	        </div>
+	        <div class="col-md-4">
+	        	<?php if(is_active_sidebar('box3')) : ?>
+	        		<?php dynamic_sidebar('box3');?>
+	            <?php endif;?>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="team-home">
+      <div class="container">
+        <h2 class="team-txt-head">TEAM</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <?php if(is_active_sidebar('box4')) : ?>
+	        		<?php dynamic_sidebar('box4');?>
+	        <?php endif;?>
+	      </div>
+          <div class="col-md-4 col-sm-4">
+            <?php if(is_active_sidebar('box5')) : ?>
+	        	<?php dynamic_sidebar('box5');?>
+	        <?php endif;?>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <?php if(is_active_sidebar('box6')) : ?>
+	        	<?php dynamic_sidebar('box6');?>
+	        <?php endif;?>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a href="#"><h3 class="team-txt rev">Review full Team</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<?php get_footer(); ?>

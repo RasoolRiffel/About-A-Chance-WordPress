@@ -25,6 +25,9 @@ hr{
     border: none;
     height: 1px!important;
 }
+p{
+    max-width: 760px!important;
+}
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
@@ -102,7 +105,19 @@ hr{
  vertical-align: 1px;
 }
 
-
+.footer-nav ul li{
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #ffffff;
+}
+.footer-nav ul li a:hover{
+    color: #2d2d2d;
+    text-decoration: none;
+}
+.menu_ftr {
+    padding: 0; 
+}
 
 
 
@@ -133,18 +148,19 @@ hr{
 }
 .don-nav{
     width:280px; 
-    background-color: #2d2d2d;
+    background-color: #2d2d2d!important;
     font-size: 16px;
     font-family: Myriad Pro;
-    color: #477838;
+    color: #477838!important;
     border-radius: 8px;
     margin-top: 11px;
     border: 0;
     padding: 5px 10px;
 }
 .don-nav:hover{
-    color: #477838;
+    color: #477838!important;
     text-decoration: none;
+    background-color: #c1c1c1!important;
 }
 /*Banner Image*/
 .banner-img{
@@ -185,6 +201,10 @@ hr{
 .rev{
     text-align: center;
 }
+.rev:hover{
+    text-decoration: none;
+    color: #2d2d2d;
+}
 .team-txt-head{
     margin-top: 25px;    
     margin-bottom: 40px;
@@ -207,6 +227,10 @@ hr{
     color: #ffffff;
     border-radius: 8px;
     border: 0;
+}
+.ftr-btn:hover{
+    background-color: #c1c1c1;
+    color: #477838;
 }
 .ftr-cta{
     margin-top: 0;
@@ -303,5 +327,37 @@ input{
 }
 /*what we do page*/
 .wwd{
-    margin-left: 200px;
+    margin-left: 160px;
+    margin-bottom: 27px;
+}
+.wwd-par{
+    width: 620px;
+    margin-left: 260px!important;
+    margin-bottom: 20px;
+}
+.wwd-txt{
+    margin-bottom: 30px;
+}
+.proj-btn{
+    margin-left: 160px!important;
+    margin-bottom: 50px;
+}
+.proj-img{
+    width: 100%;
+    margin-left: 60px;
+}
+.proj-txt{
+    width: 360px;
+    margin-left: 100px;
+}
+.res-lnks{
+    color: #2d2d2d;
+}
+.res-lnks:hover{
+    text-decoration: none;
+    color: #477838;
+}
+.cntct-row{
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
