@@ -43,5 +43,5 @@
 		</div>
 
 		<div>
-	    	<img src="<?php bloginfo('template_url'); ?>/assets/img/Video-image-home.jpg" class="banner-img" alt="About a Chance Home Video">
+	    	<img src="<?php the_field('home_page_banner_image') ?>" class="banner-img" alt="About a Chance Home Video">
 	    </div>

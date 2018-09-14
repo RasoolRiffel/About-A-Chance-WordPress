@@ -43,12 +43,10 @@
 		</div>
 
 		<div>
-	    	<img src="<?php bloginfo('template_url'); ?>/assets/img/Video-image-home.jpg" class="banner-img" alt="About a Chance Home Video">
+	    	<img src="<?php the_field('home_page_banner_image');?>" class="banner-img" alt="About a Chance Home Video">
 	    </div>
 
-	    <style type="text/css">
-             h1 { color: <?php echo get_theme_mod('header_color', '#000000'); ?>; }
-         </style>
+	    <p><?php the_field('paragraph'); ?></p>
 
 	    <div class="container">
 	      <div class="row">
