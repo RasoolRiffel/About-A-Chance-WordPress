@@ -87,7 +87,7 @@
 	   
         <div class="row">
           <div class="col-md-12">
-            <a href="#"><h3 class="team-txt text-center rev">Review full Team</h3></a>
+            <a href="<?php the_field('the_review_link'); ?>"><h3 class="team-txt text-center rev"><?php the_field('the_review_text'); ?></h3></a>
           </div>
         </div>
       </div>
