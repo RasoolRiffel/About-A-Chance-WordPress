@@ -11,7 +11,7 @@
   <body <?php body_class(); ?>>
 
   		<div class="container con-top">
-      		<strong class="head-E">Email:</strong> info@fuegotacos.co.za <span class="header-icons pull-right"><a href=""><i class="fas fa-search header-icons"></i></a> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
+      		<strong class="head-E">Email:</strong> info@fuegotacos.co.za<p><?php get_search_form(); ?></p>  <span class="header-icons pull-right"> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
      	</div>
 	  	<!-- site header -->
 	  	<div class="container">

@@ -170,8 +170,7 @@ p{
 }
 /*Home page widgets*/
 .home-col{
-    text-align: justify;
-    text-align-last: center; 
+    text-align: center;
     margin: 0 auto;
     width: 287px;
     margin-bottom: 50px 
@@ -185,15 +184,22 @@ p{
 .team-home{
     background-color: #477838;
 }
+.team-img-wid{
+    max-width: 100px!important;
+    margin-left: 140px!important; 
+}
 .team-img{
     max-width: 243px;
     width: 100%;
     margin-left: 25px;
     border-radius: 30px;
 }
+.team-imgs{
+    text-align: center!important;
+}
 .team-txt{
     color: #ffffff;
-    margin-left: 60px;
+    margin-left: 20px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 40px

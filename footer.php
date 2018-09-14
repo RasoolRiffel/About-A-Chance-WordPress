@@ -40,7 +40,7 @@
           <div class="col-md-4 col-xs-12 ftr-bar">
             <h2 class="ftr-txt-head">CONTACT</h2>
             <span class="quick-links">
-              <p><strong>EMAIL:</strong> info@fuegotacos.co.za</p>
+              <p><strong>EMAIL:</strong> <?php the_field('email_address') ?></p>
               <p><strong>PHONE:</strong>  074 042 6400</p>
 
               <div class="row">

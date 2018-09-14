@@ -11,14 +11,14 @@
   <body <?php body_class(); ?>>
 
   		<div class="container con-top">
-      		<strong class="head-E">Email:</strong> info@fuegotacos.co.za <span class="header-icons pull-right"><a href=""><i class="fas fa-search header-icons"></i></a> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
+      		<strong class="head-E">Email:</strong> <?php the_field('email_address'); ?> <span class="header-icons pull-right"><a href=""><?php get_search_form(); ?><i class="fas fa-search header-icons"></i></a> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
      	</div>
 	  	<!-- site header -->
 	  	<div class="container">
 		  	<header class="site-header">
 		  		<div class="row">
 			  		<div class="col-md-4 logo-col">
-			  			<a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" title="<?php bloginfo('name') ?>" class="logo-head"> </a>
+			  			<a href="<?php echo get_option('home'); ?>"><img src="<?php the_field('company_logo');?>" title="<?php bloginfo('name') ?>" class="logo-head"> </a>
 			  		</div>
 
 			  		<nav class="site-nav col-md-6 nav-col">
@@ -43,27 +43,25 @@
 		</div>
 
 		<div>
-	    	<img src="<?php the_field('home_page_banner_image');?>" class="banner-img" alt="About a Chance Home Video">
+	    	<img src="<?php the_field('home_page_banner_video');?>" class="banner-img" alt="About a Chance Home Video">
 	    </div>
-
-	    <p><?php the_field('paragraph'); ?></p>
 
 	    <div class="container">
 	      <div class="row">
 	        <div class="col-md-4">
-				<?php if(is_active_sidebar('box1')) : ?>
-					<?php dynamic_sidebar('box1');?>
-				<?php endif;?>
+				<a href="<?php the_field('option_1_image_link'); ?>"><img src="<?php the_field('option_1_image') ?>" class="team-img-wid"></a>
+				<h1><?php the_field('option_1_title') ?></h1>
+				<p class="home-col"><?php the_field('option_1_description') ?></p>
 	        </div>
 	        <div class="col-md-4">
-				<?php if(is_active_sidebar('box2')) : ?>
-					<?php dynamic_sidebar('box2');?>
-				<?php endif;?>
+				<a href="<?php the_field('option_2_image_link'); ?>"><img src="<?php the_field('option_2_image') ?>" class="team-img-wid"></a>
+				<h1><?php the_field('option_2_title') ?></h1>
+				<p class="home-col"><?php the_field('option_2_description') ?></p>
 	        </div>
 	        <div class="col-md-4">
-	        	<?php if(is_active_sidebar('box3')) : ?>
-	        		<?php dynamic_sidebar('box3');?>
-	            <?php endif;?>
+	        	<a href="<?php the_field('option_3_image_link'); ?>"><img src="<?php the_field('option_3_image') ?>" class="team-img-wid"></a>
+				<h1><?php the_field('option_3_title') ?></h1>
+				<p class="home-col"><?php the_field('option_3_description') ?></p>
 	        </div>
 	      </div>
 	    </div>
@@ -71,26 +69,25 @@
 	    <div class="team-home">
       <div class="container">
         <h2 class="team-txt-head">TEAM</h2>
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <?php if(is_active_sidebar('box4')) : ?>
-	        		<?php dynamic_sidebar('box4');?>
-	        <?php endif;?>
-	      </div>
-          <div class="col-md-4 col-sm-4">
-            <?php if(is_active_sidebar('box5')) : ?>
-	        	<?php dynamic_sidebar('box5');?>
-	        <?php endif;?>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <?php if(is_active_sidebar('box6')) : ?>
-	        	<?php dynamic_sidebar('box6');?>
-	        <?php endif;?>
-          </div>          
-        </div>
+        
+	        <div class="row">
+	          <div class="col-md-4 col-sm-4 text-center">
+	            <img src="<?php the_field('option_4_image') ?>" class="team-img">
+				<h3 class="team-txt"><?php the_field('option_4_title') ?></h3>
+		      </div>
+	          <div class="col-md-4 col-sm-4 text-center">
+	            <img src="<?php the_field('option_5_image') ?>" class="team-img">
+				<h3 class="team-txt"><?php the_field('option_5_title') ?></h3>
+	          </div>
+	          <div class="col-md-4 col-sm-4 text-center">
+	            <img src="<?php the_field('option_6_image') ?>" class="team-img">
+				<h3 class="team-txt"><?php the_field('option_6_title') ?></h3>
+	          </div>          
+	        </div>
+	   
         <div class="row">
           <div class="col-md-12">
-            <a href="#"><h3 class="team-txt rev">Review full Team</h3></a>
+            <a href="#"><h3 class="team-txt text-center rev">Review full Team</h3></a>
           </div>
         </div>
       </div>

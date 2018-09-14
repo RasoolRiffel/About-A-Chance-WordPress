@@ -3,7 +3,7 @@
 function styling_resources(){
 
 	wp_enqueue_style('style', get_stylesheet_uri());
-	wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', false, NULL, 'all' );
+	wp_enqueue_style('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', false, NULL, 'all' );
 	wp_enqueue_style('media-queries', get_template_directory_uri() . '/assets/css/media-queries.css');
 	wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css', 'all' );
 	wp_enqueue_script('bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), '3.3.7', true );
@@ -49,8 +49,8 @@ function wpb_init_widgets($id){
 	register_sidebar(array(
 		'name' => 'Box 4',
 		'id' => 'box4',
-		'before_widget' => '<div class="">',
-		'after_widget' => '</div>',
+		'before_widget' => '',
+		'after_widget' => '',
 		'before_title' => '<h2>',
 		'afte_title' => '</h2>',
 	));
@@ -58,8 +58,8 @@ function wpb_init_widgets($id){
 	register_sidebar(array(
 		'name' => 'Box 5',
 		'id' => 'box5',
-		'before_widget' => '<div class="">',
-		'after_widget' => '</div>',
+		'before_widget' => '',
+		'after_widget' => '',
 		'before_title' => '<h2>',
 		'afte_title' => '</h2>',
 	));
@@ -67,8 +67,8 @@ function wpb_init_widgets($id){
 	register_sidebar(array(
 		'name' => 'Box 6',
 		'id' => 'box6',
-		'before_widget' => '<div class="">',
-		'after_widget' => '</div>',
+		'before_widget' => '',
+		'after_widget' => '',
 		'before_title' => '<h2>',
 		'afte_title' => '</h2>',
 	));
@@ -200,3 +200,6 @@ function create_post_type() {
 }
 add_action( 'init', 'create_post_type' );
 
+add_post_type_support( 'page', 'excerpt' );
+
+add_theme_support( 'post-thumbnails' ); 
