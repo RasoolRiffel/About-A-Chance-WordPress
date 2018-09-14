@@ -3,8 +3,8 @@
  	<div class="container">
       <div class="row footer">
         <div class="col-md-6">
-          <h2 class="ftr-cta">LOREM IPSUM DOLOR SIT AMET</h2>
-          <h2 class="ftr-cta">LOREM IPSUM DOLOR SIT AMET</h2>
+          <h2 class="ftr-cta"><?php the_field('call_to_action_text'); ?></h2>
+          <h2 class="ftr-cta"><?php the_field('call_to_action_text_2'); ?></h2>
         </div>
         <div class="col-md-6 col-xs-12 ftr-col text-center">
           <button class="ftr-btn">VOLUNTEER</button><span class="ftr-p">OR</span><button class="ftr-btn">DONATE</button>
