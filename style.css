@@ -8,9 +8,9 @@ body{
     font-size: 16px;
 }
 h1{
-    font-size: 45px;
+    font-size: 45px!important;
     font-weight: bold!important;
-    text-align: center;
+    text-align: center!important;
 }
 h2{
     font-size: 25px!important;
@@ -27,6 +27,10 @@ hr{
 }
 p{
     max-width: 760px!important;
+}
+img{
+    /*width: 100%!important;
+    height: auto!important;*/
 }
 /* Email and social media icons */
 .con-top{
@@ -163,8 +167,9 @@ p{
     background-color: #c1c1c1!important;
 }
 /*Banner Image*/
-.banner-img{
-    width: 100%;
+.banner-img>img{
+    width: 100%!important;
+    height: auto!important;
     margin-top:30px;
     margin-bottom: 50px;
 }
@@ -186,7 +191,7 @@ p{
 }
 .team-img-wid{
     max-width: 100px!important;
-    margin-left: 140px!important; 
+    margin-left: 100px!important; 
 }
 .team-img{
     max-width: 243px;
@@ -369,4 +374,73 @@ input{
 .cntct-row{
     margin-top: 30px;
     margin-bottom: 50px;
+}
+.form-style{
+    color: #477838;
+    margin-left: 678px;
+}
+.text-form{
+    border-radius: 8px!important;
+    border: 1px solid #2d2d2d!important;
+    color: #2d2d2d!important;
+    max-width: 150px!important;
+    width: 100%!important;
+    height: 35px!important;
+    margin-bottom: 10px!important;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.team-img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #2d2d2d;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #477838;
+    text-decoration: none;
+    cursor: pointer;
 }

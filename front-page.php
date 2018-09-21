@@ -11,7 +11,15 @@
   <body <?php body_class(); ?>>
 
   		<div class="container con-top">
-      		<strong class="head-E">Email:</strong> <?php the_field('email_address'); ?> <span class="header-icons pull-right"><a href=""><?php get_search_form(); ?><i class="fas fa-search header-icons"></i></a> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
+      		<strong class="head-E">Email:</strong> <?php the_field('email_address'); ?> 
+      		<div id="foo"  style="display: none;"><?php get_search_form(); ?></div>
+      		<span class="header-icons pull-right">
+      			<a href="#" onclick="toggle_visibility('foo');"><i class="fas fa-search header-icons"></i></a> 
+
+      			<a href=""><i class="fab fa-instagram header-icons"></i></a> 
+      			<a href=""><i class="fab fa-twitter-square header-icons"></i></a> 
+      			<a href=""><i class="fab fa-facebook-square header-icons"></i></a> 
+      		</span>
      	</div>
 	  	<!-- site header -->
 	  	<div class="container">
@@ -42,8 +50,8 @@
 
 		</div>
 
-		<div>
-	    	<img src="<?php the_field('home_page_banner_video');?>" class="banner-img" alt="About a Chance Home Video">
+		<div class="banner-img">
+	    	<?php the_post_thumbnail(); ?>
 	    </div>
 
 	    <div class="container">
@@ -68,6 +76,26 @@
 
 	    <div class="team-home">
       <div class="container">
+
+
+      	<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+
+</script>
+
+
+
+
+
+
+
+
         <h2 class="team-txt-head">TEAM</h2>
         
 	        <div class="row">
