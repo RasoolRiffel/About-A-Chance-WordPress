@@ -41,7 +41,7 @@
             <h2 class="ftr-txt-head">CONTACT</h2>
             <span class="quick-links">
               <p><strong>EMAIL:</strong> <?php the_field('email_address') ?></p>
-              <p><strong>PHONE:</strong>  074 042 6400</p>
+              <p><strong>PHONE:</strong> <?php the_field('phone_number'); ?></p>
 
               <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">

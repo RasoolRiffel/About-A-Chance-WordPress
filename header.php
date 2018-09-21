@@ -11,6 +11,7 @@
   <body <?php body_class(); ?>>
 
   		<div class="container con-top">
+<<<<<<< HEAD
       		<strong class="head-E">Email:</strong> <?php the_field('email_address'); ?> 
       		<div id="foo"  style="display: none;"><?php get_search_form(); ?></div>
       		<span class="header-icons pull-right">
@@ -20,6 +21,9 @@
       			<a href=""><i class="fab fa-twitter-square header-icons"></i></a> 
       			<a href=""><i class="fab fa-facebook-square header-icons"></i></a> 
       		</span>
+=======
+      		<strong class="head-E">Email:</strong> <?php the_field('email_address'); ?> <span class="header-icons pull-right"> <a href=""><i class="fab fa-instagram header-icons"></i></a> <a href=""><i class="fab fa-twitter-square header-icons"></i></a> <a href=""><i class="fab fa-facebook-square header-icons"></i></a> </span>
+>>>>>>> 36dc827aa9b44ec6d3015c6b570be2d8054cfba7
      	</div>
 	  	<!-- site header -->
 	  	<div class="container">
