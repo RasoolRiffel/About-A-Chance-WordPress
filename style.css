@@ -5,7 +5,7 @@ version: 1.0
 */
 body{
     font-family: Myriad Pro, sans-serif !important;
-    font-size: 16px;
+    font-size: 16px!important;
 }
 h1{
     font-size: 45px!important;
@@ -122,7 +122,12 @@ img{
 .menu_ftr {
     padding: 0; 
 }
-
+.menu-btn{
+    color: #477838;
+    font-size: 30px;
+    margin-top: 17px;
+    float: right;
+}
 
 
 
@@ -341,7 +346,6 @@ input{
 }
 /*what we do page*/
 .wwd{
-    margin-left: 160px;
     margin-bottom: 27px;
 }
 .wwd-par{
@@ -443,4 +447,33 @@ input{
     color: #477838;
     text-decoration: none;
     cursor: pointer;
+}
+.modal-col-img>img{
+    margin-left: 3px!important;
+}
+.modal-col-hd>h2{
+    text-align: center;
+}
+.modal-col-hd>p{
+    text-align: center;
+}
+.modal-col-img>p{
+    margin-top: 10px;
+    margin-left: 50px!important;
+}
+#gallery-1{
+    margin-left: 100px!important;
+}
+#gallery-1 img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 0!important;
+}
+.gal-imgs{
+    width: 860px!important;
+    margin-left: 140px!important;
+}
+.gal-imgs .team-img{
+    border-radius: 0!important; 
 }

@@ -31,7 +31,7 @@
 			  		</div>
 
 			  		<nav class="site-nav col-md-6 nav-col">
-			  			
+
 			  			<?php 
 
 			  			$args = array(
@@ -63,7 +63,7 @@
 				while (have_posts()) : the_post();?>
 
 				<h1><?php the_title();?></h1>
-				<div class="about-txt"><?php the_content();?></div>
+				<?php the_content();?>
 
 				<?php 
 				endwhile;
@@ -71,8 +71,8 @@
 				else: 
 					echo "<p>No content found</p>";
 				endif;?>				
-        
-	        <div class="row">
+        <div class="gal-imgs">
+        	<div class="row">
 	          <div class="col-md-4 col-sm-4 text-center">
 	            <img src="<?php the_field('image_1') ?>" class="team-img button" data-modal="modalOne">
 				<h3 class="team-txt-pg"><?php the_field('image_1_text') ?></h3>
@@ -461,6 +461,8 @@
 			  </div>
 
 			</div>
+        </div>
+	        
 
 		</div>
 
