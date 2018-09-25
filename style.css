@@ -305,7 +305,7 @@ input{
     text-align: center;
     max-width: 290px;
     width:100%;
-    margin-left: 0; 
+    margin: 0 auto; 
 }
 /*team page*/
 .team-txt-pg{

@@ -92,25 +92,8 @@
 
 			  <!-- Modal content -->
 			  <div class="modal-content container">
-			  	<div class="row">
-			  		<div class="col-md-12">
-			  			<span class="close"><i class="fas fa-times "></i></span>
-			  		</div>
-			  	</div>
-			  	<div class="row">
-			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_1_modal') ?>" class="team-img">
-			  		</div>
-			  		<div class="col-md-8">
-			  			<h2 class="head-E"><?php the_field('image_1_modal_heading') ?></h2>
-			    		<p><?php the_field('image_1_modal_text') ?></p>
-			  		</div>
-			  	</div>
-			  	<div class="row">
-			  		<div class="col-md-12 modal-col-img">
-			  			<p><?php the_field('about_the_person_intro'); ?></p>
-			  		</div>			  		
-			  	</div>	    
+			  			<img src="<?php the_field('image_1_modal') ?>" class="team-img">	
+			  	</div>			  		    
 			  </div>
 
 			</div>
