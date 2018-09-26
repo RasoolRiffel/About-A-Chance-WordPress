@@ -27,3 +27,10 @@ window.onclick = function(event) {
     event.target.style.display = "none";
   }
 }
+window.onclick = function(event) {
+  if (event.target.className === "modal-gal") {
+    event.target.style.display = "none";
+  }
+}
+
+

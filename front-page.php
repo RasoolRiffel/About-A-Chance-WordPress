@@ -100,15 +100,15 @@
         
 	        <div class="row">
 	          <div class="col-md-4 col-sm-4 text-center">
-	            <img src="<?php the_field('option_4_image') ?>" class="team-img">
+	            <img src="<?php the_field('option_4_image') ?>" class="team-imgs">
 				<h3 class="team-txt"><?php the_field('option_4_title') ?></h3>
 		      </div>
 	          <div class="col-md-4 col-sm-4 text-center">
-	            <img src="<?php the_field('option_5_image') ?>" class="team-img">
+	            <img src="<?php the_field('option_5_image') ?>" class="team-imgs">
 				<h3 class="team-txt"><?php the_field('option_5_title') ?></h3>
 	          </div>
 	          <div class="col-md-4 col-sm-4 text-center">
-	            <img src="<?php the_field('option_6_image') ?>" class="team-img">
+	            <img src="<?php the_field('option_6_image') ?>" class="team-imgs">
 				<h3 class="team-txt"><?php the_field('option_6_title') ?></h3>
 	          </div>          
 	        </div>

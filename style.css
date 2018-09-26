@@ -28,10 +28,6 @@ hr{
 p{
     max-width: 760px!important;
 }
-img{
-    /*width: 100%!important;
-    height: auto!important;*/
-}
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
@@ -123,6 +119,7 @@ img{
     padding: 0; 
 }
 .menu-btn{
+    display: block;
     color: #477838;
     font-size: 30px;
     margin-top: 17px;
@@ -392,7 +389,7 @@ input{
     height: 35px!important;
     margin-bottom: 10px!important;
 }
-/* The Modal (background) */
+/* The Modal (background)  Team Page*/
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -404,7 +401,7 @@ input{
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
 .team-img:hover{
     opacity: 0.6;
@@ -437,14 +434,13 @@ input{
 /* The Close Button */
 .close {
     color: #2d2d2d;
-    float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #477838;
+    color: #2d2d2d!important;
     text-decoration: none;
     cursor: pointer;
 }
@@ -476,4 +472,72 @@ input{
 }
 .gal-imgs .team-img{
     border-radius: 0!important; 
+}
+
+/* Modal Content */
+.modal-content-gal{
+    margin: auto;
+    padding: 20px;
+    width: 60%!important;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.modal-content-gal>img{
+    width: 100%!important;
+    max-width: 700px;
+}
+.modal-content-gal>p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 24px;
+}
+.close-modal{
+    color: #477838!important;
+    float: right!important;
+    font-size: 35px!important;
+    font-weight: bold!important;
+    opacity: 1!important;
+    text-shadow: none!important;
+}
+
+.gal-row{
+    margin-bottom: 50px;
+}
+.team-imgs{
+    max-width: 243px;
+    width: 100%;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.team-imgs-gal{
+    max-width: 243px;
+    width: 100%;
+    margin-left: 25px;
+}
+.con-txt{
+    margin-bottom: 50px!important;
+}
+.con-form{
+    border: 3px solid #2d2d2d;
+    margin-bottom: 30px!important;
+    max-width: 320px;
+}
+.con-form:last-child{
+    border-radius: 8px; 
+    max-width: 320px!important;
+}
+.con-form-one{
+    padding-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-right: 2px solid #477838;
+}
+.con-img{
+    max-width: 410px;
+    width: 100%;
+    border: 1px solid #2d2d2d;
+    margin-bottom: 50px!important;
 }

@@ -48,6 +48,10 @@
 	.modal{
 		padding-top: 280px
 	}
+	.modal-img{
+		padding-top: 170px!important;
+		padding-left: 100px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */

@@ -99,7 +99,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_1_modal') ?>" class="team-img">
+			  			<img src="<?php the_field('image_1_modal') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_1_modal_heading') ?></h2>
@@ -126,7 +126,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_2') ?>" class="team-img">
+			  			<img src="<?php the_field('image_2') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_2') ?></h2>
@@ -154,7 +154,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_3') ?>" class="team-img">
+			  			<img src="<?php the_field('image_3') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_3') ?></h2>
@@ -197,7 +197,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_4') ?>" class="team-img">
+			  			<img src="<?php the_field('image_4') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_4') ?></h2>
@@ -225,7 +225,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_5') ?>" class="team-img">
+			  			<img src="<?php the_field('image_5') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_5') ?></h2>
@@ -253,7 +253,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_6') ?>" class="team-img">
+			  			<img src="<?php the_field('image_6') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_6') ?></h2>
@@ -296,7 +296,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_7') ?>" class="team-img">
+			  			<img src="<?php the_field('image_7') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_7') ?></h2>
@@ -323,7 +323,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_8') ?>" class="team-img">
+			  			<img src="<?php the_field('image_8') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_8') ?></h2>
@@ -350,7 +350,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_9') ?>" class="team-img">
+			  			<img src="<?php the_field('image_9') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_9') ?></h2>
@@ -392,7 +392,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_10') ?>" class="team-img">
+			  			<img src="<?php the_field('image_10') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_10') ?></h2>
@@ -419,7 +419,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 col-sm-4 modal-col-img">
-			  			<img src="<?php the_field('image_11') ?>" class="team-img">
+			  			<img src="<?php the_field('image_11') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8 col-sm-8 modal-col-hd">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_11') ?></h2>
@@ -446,7 +446,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_12') ?>" class="team-img">
+			  			<img src="<?php the_field('image_12') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_modal_heading_12') ?></h2>
