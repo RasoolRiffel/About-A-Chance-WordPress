@@ -25,11 +25,11 @@
 	  	<div class="container">
 		  	<header class="site-header">
 		  		<div class="row">
-			  		<div class="col-md-4 logo-col">
+			  		<div class="col-md-4 col-sm-12 logo-col">
 			  			<a href="<?php echo get_option('home'); ?>"><img src="<?php the_field('company_logo');?>" title="<?php bloginfo('name') ?>" class="logo-head"> </a>
 			  		</div>
 
-			  			<nav class="site-nav col-md-6 nav-col">
+			  			<nav class="site-nav col-md-6 nav-col" id="mySitenav">
 
 				  			<?php 
 
@@ -43,14 +43,16 @@
 				  			<?php wp_nav_menu( $args );?>
 				  		</nav>
 			  	
-			  		<span class="col-md-1 menu-btn"><i class="fas fa-bars"></i></span>
+			  		
 
 			  		<div class="col-md-1 btn-col  pull-right">
 
-			  			<a href="#">
-			  				<button type="button" class="btn btn-default btn-lg don-nav">DONATE</button>
+			  			<a href="<?php the_field('donate_button_link'); ?>">
+			  				<button type="button" class="btn btn-default btn-lg don-nav"><?php the_field('donate_button_text'); ?></button>
 			  			</a>
 			  		</div>
+
+			  		<span class="col-md-1 menu-btn menu-col" onclick="myFunction()"><i class="fas fa-bars" ></i></span>
 
 			  		
 

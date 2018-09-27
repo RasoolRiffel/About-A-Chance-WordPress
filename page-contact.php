@@ -23,14 +23,19 @@ get_header();?>
         <div class="con-form-one">
           <p><strong class="head-E">EMAIL:</strong> <?php the_field('email_address') ?></p>
           <p class="con-txt"><strong class="head-E">PHONE:</strong> <?php the_field('phone_number'); ?></p>
-        
+          
+          <label><strong class="head-E">NAME</strong></label><br>
           <input type="text" name="Name" class="con-form"><br>
+          <label><strong class="head-E">EMAIL</strong></label><br>
           <input type="text" name="Name" class="con-form"><br>
-          <textarea type="text" name="Name" class="con-form" row="3"></textarea>
+          <label><strong class="head-E">MESSAGE</strong></label><br>
+          <textarea type="text" name="Name" class="con-form form-control" row="10"></textarea>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 cntct-mps-cntnr">
         <img src="<?php the_field('maps_image'); ?>" class="con-img">
+        <h3><?php the_field('location_header');?></h3>
+        <p><?php the_field('location_text'); ?></p>
       </div>
     </div>
     

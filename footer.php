@@ -7,7 +7,19 @@
           <h2 class="ftr-cta"><?php the_field('call_to_action_text_2'); ?></h2>
         </div>
         <div class="col-md-6 col-xs-12 ftr-col text-center">
-          <button class="ftr-btn">VOLUNTEER</button><span class="ftr-p">OR</span><button class="ftr-btn">DONATE</button>
+          <a href="<?php the_field('volunteer_button_link'); ?>">
+            <button class="ftr-btn">
+              <?php the_field('volunteer_button_text'); ?>              
+            </button>
+          </a>
+          <span class="ftr-p">
+            OR
+          </span>
+          <a href="<?php the_field('donate_button_link'); ?>">
+            <button class="ftr-btn">
+              <?php the_field('donate_button_text'); ?>                
+              </button>
+            </a>
         </div>
       </div>
     </div>
@@ -45,16 +57,16 @@
 
               <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="#"><i class="fas fa-search ftr-icons"></i></a>
+                  <a href="<?php the_field(''); ?>"><i class="fas fa-search ftr-icons"></i></a>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="#"><i class="fab fa-instagram ftr-icons"></i></a>
+                  <a href="<?php the_field('social_media_links_-_instagram'); ?>"><i class="fab fa-instagram ftr-icons"></i></a>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="#"><i class="fab fa-twitter-square ftr-icons"></i></a>
+                  <a href="<?php the_field('social_media_links_-_twitter'); ?>"><i class="fab fa-twitter-square ftr-icons"></i></a>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="#"><i class="fab fa-facebook-square ftr-icons"></i></a>
+                  <a href="<?php the_field('social_media_links_-_facebook'); ?>"><i class="fab fa-facebook-square ftr-icons"></i></a>
                 </div>                
               </div>
             </span>

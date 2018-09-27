@@ -123,8 +123,14 @@ p{
     color: #477838;
     font-size: 30px;
     margin-top: 17px;
-    float: right;
+    float: right!important;
 }
+.site-nav.responsive {
+    position: relative;
+    display: none;
+}
+
+
 
 
 
@@ -157,7 +163,7 @@ p{
     background-color: #2d2d2d!important;
     font-size: 16px;
     font-family: Myriad Pro;
-    color: #477838!important;
+    color: #fff!important;
     border-radius: 8px;
     margin-top: 11px;
     border: 0;
@@ -198,7 +204,6 @@ p{
 .team-img{
     max-width: 243px;
     width: 100%;
-    margin-left: 25px;
     border-radius: 30px;
 }
 .team-imgs{
@@ -235,7 +240,7 @@ p{
     margin-bottom: 50px
 }
 .ftr-btn{
-    max-width: 230px;
+    max-width: 240px;
     width: 100%;
     height: 35px;
     background-color: #2d2d2d;
@@ -276,7 +281,7 @@ input{
     border-radius: 8px;
     border: 0;
     color: #2d2d2d;
-    max-width: 230px;
+    max-width: 240px;
     width: 100%;
     height: 35px;
     margin-bottom: 10px!important;
@@ -344,6 +349,7 @@ input{
 /*what we do page*/
 .wwd{
     margin-bottom: 27px;
+    width: 100%
 }
 .wwd-par{
     width: 620px;
@@ -378,7 +384,7 @@ input{
 }
 .form-style{
     color: #477838;
-    margin-left: 678px;
+    margin-left: 675px;
 }
 .text-form{
     border-radius: 8px!important;
@@ -466,9 +472,8 @@ input{
     height: auto;
     border: 0!important;
 }
-.gal-imgs{
-    width: 860px!important;
-    margin-left: 140px!important;
+.gal-img-pg{
+    margin-bottom: 10px!important;
 }
 .gal-imgs .team-img{
     border-radius: 0!important; 
@@ -521,23 +526,34 @@ input{
     margin-bottom: 50px!important;
 }
 .con-form{
-    border: 3px solid #2d2d2d;
+    border: 3px solid #2d2d2d!important;
     margin-bottom: 30px!important;
-    max-width: 320px;
+    max-width: 320px!important;
 }
 .con-form:last-child{
     border-radius: 8px; 
     max-width: 320px!important;
+    width: 100%;
 }
 .con-form-one{
     padding-top: 20px;
     margin-right: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
     border-right: 2px solid #477838;
 }
 .con-img{
     max-width: 410px;
     width: 100%;
     border: 1px solid #2d2d2d;
-    margin-bottom: 50px!important;
+}
+h2 a{
+    color: #2d2d2d;
+}
+h2 a:hover{
+    color: #477838;
+    text-decoration: none!important;
+}
+.cntct-mps-cntnr h3{
+    color: #477838;
+    margin-top: 10px;
 }

@@ -1,5 +1,6 @@
 <?php get_header();?>
 
+<div class="container">
 <div class="row">
 	<div class="">
 		<?php 
@@ -10,7 +11,7 @@
 					<?php the_title(); ?>
 					<?php if(has_post_thumbnail());?>
 						<div class="pull-right"><?php the_post_thumbnail()?></div>
-					<?php endif;?>
+					
 
 					<small><?php the_category(); ?> || <?php the_tags(); ?> || <?php edit_post_link(); ?></small>
 					<?php the_content(); ?>
@@ -33,7 +34,7 @@
 
 	</div>
 </div>
-
+</div>
 
 
 

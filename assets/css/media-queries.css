@@ -9,12 +9,8 @@
     	padding-right: 0;
 	}
 	.don-nav{
-    	width: 730px
+    	width: 730px;
     }
-	/*team div*/
-	.team-img{
-	    margin-left: 5px;
-	}
 	/*Call to Action buttons*/
 	.ftr-btn{
 		margin-left: 0;
@@ -30,11 +26,6 @@
 	}
 	.about-txt{
 	    max-width: 530px!important;
-	    margin-left: 90px; 
-	}
-	.about-txt{
-	    max-width: 530px!important;
-	    margin-left: 90px; 
 	}
 	.team-img-wid{
 	    margin-left: 310px!important; 
@@ -52,6 +43,10 @@
 		padding-top: 170px!important;
 		padding-left: 100px;
 	}
+	.logo-head{
+	    margin-left: 100px;
+   		max-width: 450px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -60,6 +55,10 @@
 	
 	.modal-col-img{
 		width: 28.3333%!important;
+	}
+	.logo-head{
+		margin-left: 0;
+		max-width: 250px;
 	}
 	.modal{
 		padding-top: 320px
@@ -77,17 +76,12 @@
     /*Logo and Nav bar*/
 	
 	.btn-col{
-    	width: 8%;
+    	width: 13%;
     	padding-right: 0;
 	}
 	.don-nav{
     	width: 100px;
     }
-    
-	/*team div*/
-	.team-img{
-    	margin-left: 20px;
-	}
 	.ftr-cta{
 	    margin-top: 0;
 	    text-align: left;
@@ -118,6 +112,12 @@
 	.team-img-wid{
 	    margin-left: 110px!important; 
 	}
+	.site-nav.responsive {position: relative;display: none;}
+	.site-nav .responsive .menu-btn{
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -133,20 +133,16 @@
     	max-width: 290px;
 	}
 	.nav-col{
-    	width: 65.5%;
+    	width: 63.5%;
     	display: inline-block;
 	}
 	.btn-col{
-    	width: 8%;
+    	width: 11%;
     	padding-right: 0;
 	}
 	/*widgets*/
     .wid-icon{
 	    margin-left: 0;
-	}
-	/*team div*/
-	.team-img{
-    	margin-left: 0	;
 	}
 	/*footer*/
 	.ftr-btn{
