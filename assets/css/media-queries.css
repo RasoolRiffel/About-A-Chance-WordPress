@@ -118,6 +118,10 @@
 	    right: 0;
 	    top: 0;
 	}
+	.form-style{
+	    color: #477838;
+	    margin-left: 467px;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -161,5 +165,9 @@
 	.modal-col-img>p{
 		margin-top: 10px;
 		margin-left: 50px!important;
+	}
+	.form-style{
+	    color: #477838;
+	    margin-left: 667px;
 	}
 }

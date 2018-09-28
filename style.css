@@ -166,8 +166,15 @@ p{
     color: #fff!important;
     border-radius: 8px;
     margin-top: 11px;
-    border: 0;
+    border: 0!important;
     padding: 5px 10px;
+}
+.about-txt>h1>a{
+    color: #2d2d2d;
+}
+.about-txt>h1>a:hover{
+    color: #477838;
+    text-decoration: none;
 }
 .don-nav:hover{
     color: #477838!important;
@@ -180,6 +187,12 @@ p{
     height: auto!important;
     margin-top:30px;
     margin-bottom: 50px;
+}
+.banner-img-arc-prct>img{
+    width: 100%!important;
+    height: auto!important;
+    margin-top:30px;
+    margin-bottom: 30px;
 }
 /*Home page widgets*/
 .home-col{
@@ -223,7 +236,7 @@ p{
     font-weight: bold;
 }
 .rev:hover{
-    text-decoration: none;
+    text-decoration: none!important;
     color: #2d2d2d;
 }
 .team-txt-head{

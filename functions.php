@@ -98,53 +98,24 @@ function oenology_add_menu_parent_class( $items ) {
 }
 add_filter( 'wp_nav_menu_objects', 'oenology_add_menu_parent_class' );
 
-
-
-
-
-
-/* Custom Post Types */
-
-function awesome_custom_post_type(){
-	$labels = array(
-		'name'			=> 'Projects',
-		'singular_name'	=> 'Project',
-		'add_new' 		=> 'Add Item',
-		'all_items'		=> 'All Items',
-		'edit_item'		=>	'Edit Item',
-		'new_item'		=>	'New Item',
-		'view_item'		=>	'View Item',
-		'search_item'	=>	'Search Projects',
-		'not_found'		=>	'No Projects Found',
-		'not_found_in_trash'	=> 'No items found in trash',
-		'parent_item_colon'		=> 'Parent Item'	
-	);
-	$args = array(
-		'labels' => $labels,
-		'public' => true,
-		'has_archive' => true,
-		'publicly_queryable' => true,
-		'query_var' => true,
-		'rewrite' => true,
-		'capability_type' => 'post',
-		'hierarchical' => false,
-		'supports' => array(
-			'title',
-			'editor',
-			'excerpt',
-			'thumbnail',
-			'revisions',
-		),
-		'taxonomies' => array('category', 'post_tag'),
-		'menu_position' => 5,
-		'exclude_from_search' => false,
-	);
-	register_post_type('projects',$args);
-}
-
-add_action('init', 'awesome_custom_post_type');
-
-
 add_post_type_support( 'page', 'excerpt' );
 
 add_theme_support( 'post-thumbnails' ); 
+
+/* Custom Post Types*/
+function create_posttype() {
+  register_post_type( 'wpll_project',
+    array(
+      'labels' => array(
+        'name' => __( 'Projects' ),
+        'singular_name' => __( 'Project' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'supports' => array('title', 'editor', 'author', 'excerpt', 'thumbnail', 'comments', 'post-formats', 'page-attributes', 'custom-fields', 'revisions'),
+      'rewrite' => array('slug' => 'projects'),
+    )
+  );
+}
+add_action( 'init', 'create_posttype' );
+

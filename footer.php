@@ -57,7 +57,7 @@
 
               <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="<?php the_field(''); ?>"><i class="fas fa-search ftr-icons"></i></a>
+                  <a href="#" onclick="toggle_visibility('foo');"><i class="fas fa-search ftr-icons"></i></a>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-3">
                   <a href="<?php the_field('social_media_links_-_instagram'); ?>"><i class="fab fa-instagram ftr-icons"></i></a>
