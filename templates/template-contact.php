@@ -31,7 +31,10 @@ get_header();?>
           <label><strong class="head-E">EMAIL</strong></label><br>
           <input type="text" name="Name" class="con-form"><br>
           <label><strong class="head-E">MESSAGE</strong></label><br>
-          <textarea type="text" name="Name" class="con-form form-control" row="10"></textarea>
+          <textarea type="text" name="Name" class="con-form-txt" ></textarea>
+          <button class="ftr-btn">
+              <?php the_field('send_button_text'); ?>                
+              </button>
         </div>
       </div>
       <div class="col-md-6 cntct-mps-cntnr">

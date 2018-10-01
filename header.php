@@ -16,9 +16,9 @@
       		<span class="header-icons pull-right">
       			<a href="#" onclick="toggle_visibility('foo');"><i class="fas fa-search header-icons"></i></a> 
 
-      			<a href=""><i class="fab fa-instagram header-icons"></i></a> 
-      			<a href=""><i class="fab fa-twitter-square header-icons"></i></a> 
-      			<a href=""><i class="fab fa-facebook-square header-icons"></i></a> 
+      			<a href="<?php the_field('social_media_links_-_instagram'); ?>"><i class="fab fa-instagram header-icons"></i></a>
+      			<a href="<?php the_field('social_media_links_-_twitter'); ?>"><i class="fab fa-twitter-square header-icons"></i></a>
+      			<a href="<?php the_field('social_media_links_-_facebook'); ?>"><i class="fab fa-facebook-square header-icons"></i></a> 
       		</span>
      	</div>
 	  	<!-- site header -->

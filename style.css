@@ -11,6 +11,7 @@ h1{
     font-size: 45px!important;
     font-weight: bold!important;
     text-align: center!important;
+    margin-top: 0!important;
 }
 h2{
     font-size: 25px!important;
@@ -24,9 +25,11 @@ hr{
     background-color: #477838;
     border: none;
     height: 1px!important;
+    margin-bottom: 50px!important;
 }
 p{
     max-width: 760px!important;
+    font-size: 16px;
 }
 /* Email and social media icons */
 .con-top{
@@ -193,6 +196,12 @@ p{
     height: auto!important;
     margin-top:30px;
     margin-bottom: 30px;
+}
+.banner-vid>iframe{
+    max-width: 2000px;
+    width: 100%!important;
+    margin-top:30px;
+    margin-bottom: 50px;
 }
 /*Home page widgets*/
 .home-col{
@@ -524,7 +533,6 @@ input{
 .team-imgs{
     max-width: 243px;
     width: 100%;
-    margin-left: 25px;
     border-radius: 30px;
 }
 .team-imgs-gal{
@@ -537,23 +545,26 @@ input{
 .con-form{
     border: 3px solid #2d2d2d!important;
     margin-bottom: 30px!important;
-    max-width: 320px!important;
+    max-width: 503px!important;
 }
-.con-form:last-child{
+.con-form-txt{
     border-radius: 8px; 
-    max-width: 320px!important;
+    max-width: 503px!important;
     width: 100%;
+    margin-bottom: 30px;
+    height: 120px!important;
+    border: 3px solid #2d2d2d!important;
 }
 .con-form-one{
     padding-top: 20px;
     margin-right: 50px;
     padding-bottom: 30px;
-    border-right: 2px solid #477838;
 }
 .con-img{
     max-width: 410px;
     width: 100%;
-    border: 1px solid #2d2d2d;
+    border: 3px solid #2d2d2d;
+    border-radius: 8px;
 }
 h2 a{
     color: #2d2d2d;
@@ -568,37 +579,4 @@ h2 a:hover{
 }
 .text-form{
     color: #2d2d2d;
-}
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: #477838;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-.prev{
-    left: 340px;
-}
-/* Position the "next button" to the right */
-.next {
-  right: 235px;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  color: white;
 }
