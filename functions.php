@@ -112,10 +112,9 @@ function create_posttype() {
       ),
       'public' => true,
       'has_archive' => true,
-      'supports' => array('title', 'editor', 'author', 'excerpt', 'thumbnail', 'comments', 'post-formats', 'page-attributes', 'custom-fields', 'revisions'),
+      'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'page-attributes', 'custom-fields'),
       'rewrite' => array('slug' => 'projects'),
     )
   );
 }
 add_action( 'init', 'create_posttype' );
-

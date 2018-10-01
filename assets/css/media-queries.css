@@ -120,7 +120,13 @@
 	}
 	.form-style{
 	    color: #477838;
-	    margin-left: 467px;
+	    margin-left: 607px;
+	}
+	.team-imgs-gal{
+		margin-left: 0;
+	}
+	.modal-content-gal>p{
+		margin-left: 0;
 	}
 }
 
@@ -168,6 +174,9 @@
 	}
 	.form-style{
 	    color: #477838;
-	    margin-left: 667px;
+	    margin-left: 807px;
+	}
+	.modal-content-gal{
+    	width: 60%!important;
 	}
 }

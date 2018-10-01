@@ -1,4 +1,8 @@
-<?php get_header();	 ?>
+<?php 
+
+/*Template Name: Gallery Page*/
+
+get_header();	 ?>
 	 
 	<hr>
 

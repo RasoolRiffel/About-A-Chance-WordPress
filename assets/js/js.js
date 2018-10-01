@@ -27,11 +27,6 @@ window.onclick = function(event) {
     event.target.style.display = "none";
   }
 }
-window.onclick = function(event) {
-  if (event.target.className === "modal-gal") {
-    event.target.style.display = "none";
-  }
-}
 
 function myFunction() {
     var x = document.getElementById("mySitenav");
@@ -47,4 +42,4 @@ function toggle_visibility(id) {
           e.style.display = 'none';
        else
           e.style.display = 'block';
-    }
+}

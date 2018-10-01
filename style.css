@@ -496,7 +496,7 @@ input{
 .modal-content-gal{
     margin: auto;
     padding: 20px;
-    width: 60%!important;
+    width: 85%!important;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -510,13 +510,10 @@ input{
     color: #fff;
     margin-top: 10px;
     font-size: 20px;
-    margin-left: 24px;
 }
 .close-modal{
     color: #477838!important;
-    float: right!important;
     font-size: 35px!important;
-    font-weight: bold!important;
     opacity: 1!important;
     text-shadow: none!important;
 }
@@ -533,7 +530,6 @@ input{
 .team-imgs-gal{
     max-width: 243px;
     width: 100%;
-    margin-left: 25px;
 }
 .con-txt{
     margin-bottom: 50px!important;
@@ -569,4 +565,40 @@ h2 a:hover{
 .cntct-mps-cntnr h3{
     color: #477838;
     margin-top: 10px;
+}
+.text-form{
+    color: #2d2d2d;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #477838;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev{
+    left: 340px;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 235px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
 }
