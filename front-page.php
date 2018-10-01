@@ -70,17 +70,17 @@
 	      <div class="row">
 	        <div class="col-md-4">
 				<a href="<?php the_field('option_1_image_link'); ?>"><img src="<?php the_field('option_1_image') ?>" class="team-img-wid"></a>
-				<h1><?php the_field('option_1_title') ?></h1>
+				<h2 class="text-center"><?php the_field('option_1_title') ?></h2>
 				<p class="home-col"><?php the_field('option_1_description') ?></p>
 	        </div>
 	        <div class="col-md-4">
 				<a href="<?php the_field('option_2_image_link'); ?>"><img src="<?php the_field('option_2_image') ?>" class="team-img-wid"></a>
-				<h1><?php the_field('option_2_title') ?></h1>
+				<h2 class="text-center"><?php the_field('option_2_title') ?></h2>
 				<p class="home-col"><?php the_field('option_2_description') ?></p>
 	        </div>
 	        <div class="col-md-4">
 	        	<a href="<?php the_field('option_3_image_link'); ?>"><img src="<?php the_field('option_3_image') ?>" class="team-img-wid"></a>
-				<h1><?php the_field('option_3_title') ?></h1>
+				<h2 class="text-center"><?php the_field('option_3_title') ?></h2>
 				<p class="home-col"><?php the_field('option_3_description') ?></p>
 	        </div>
 	      </div>
@@ -89,7 +89,7 @@
 	    <div class="team-home">
       <div class="container">
 
-        <h2 class="team-txt-head">TEAM</h2>
+        <h2 class="team-txt-head"><?php the_field('team_section_text'); ?></h2>
         
 	        <div class="row">
 	          <div class="col-md-4 col-sm-4 text-center">
