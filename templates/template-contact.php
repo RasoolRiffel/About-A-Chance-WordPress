@@ -20,32 +20,27 @@ get_header();?>
     endif;
     ?>
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="con-form-one">
-          <p><strong class="head-E">EMAIL:</strong> <?php the_field('email_address') ?></p>
-          <p class="con-txt"><strong class="head-E">PHONE:</strong> <?php the_field('phone_number'); ?></p>
-          
-          <label><strong class="head-E">NAME</strong></label><br>
-          <input type="text" name="Name" class="con-form"><br>
-          <label><strong class="head-E">EMAIL</strong></label><br>
-          <input type="text" name="Name" class="con-form"><br>
-          <label><strong class="head-E">MESSAGE</strong></label><br>
-          <textarea type="text" name="Name" class="con-form-txt" ></textarea>
-          <button class="ftr-btn">
-              <?php the_field('send_button_text'); ?>                
+        <div class="con-form-one about-txt">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <p><strong class="head-E">EMAIL:</strong><br> <?php the_field('email_address') ?></p>
+          <p><strong class="head-E">PHONE:</strong><br><?php the_field('phone_number'); ?></p>
+          <div class="con-txt"><strong class="head-E">ADDRESS:</strong><br> <?php the_field('location_text') ?></div>
+            </div>
+            <div class="col-md-6 col-sm-12 con-form-txt-plchldr">
+              <input type="text" name="Name" placeholder="NAME" class="con-form ">
+              <input type="text" name="Name" placeholder="EMAIL" class="con-form"><br>
+              <input type="text" name="Name" placeholder="MESSAGE"  class="con-form-txt"><br>
+              <button class="ftr-btn con-btn">
+                <?php the_field('send_button_text'); ?>                
               </button>
+            </div>
+          </div>
+          
+          
+          
         </div>
       </div>
-      <div class="col-md-6 cntct-mps-cntnr">
-        <img src="<?php the_field('maps_image'); ?>" class="con-img">
-        <h3><?php the_field('location_header');?></h3>
-        <p><?php the_field('location_text'); ?></p>
-      </div>
-    </div>
-    
-
-    </div>
    <hr>
 <?php get_footer();
 

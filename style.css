@@ -4,8 +4,10 @@ Author: Rasool Riffel
 version: 1.0
 */
 body{
-    font-family: Myriad Pro, sans-serif !important;
+    font-family: PT sans, sans-serif!important;
     font-size: 16px!important;
+    font-weight: normal;
+    font-style: normal;
 }
 h1{
     font-size: 45px!important;
@@ -19,26 +21,31 @@ h2{
 }
 h3{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold!important;
 }
 hr{
     background-color: #477838;
     border: none;
     height: 1px!important;
-    margin-bottom: 50px!important;
 }
 p{
     max-width: 760px!important;
     font-size: 16px;
-    margin-bottom: 30px!important;
+    margin-bottom: 50px!important;
 }
+strong { font-weight: 500;}
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
     text-align: center;
 }
+.head-lne>hr{
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+}
 .head-E{
     color: #477838;
+    font-weight: bold;
 }
 .header-icons{
     display: none;
@@ -189,7 +196,7 @@ p{
 .banner-img>img{
     width: 100%!important;
     height: auto!important;
-    margin-top:30px;
+    margin-top:50px;
     margin-bottom: 50px;
 }
 .banner-img-arc-prct>img{
@@ -201,15 +208,18 @@ p{
 .banner-vid>iframe{
     max-width: 2000px;
     width: 100%!important;
-    margin-top:30px;
+    margin-top:50px;
     margin-bottom: 50px;
 }
 /*Home page widgets*/
+.heading-one-txt>h1{
+    margin-bottom: 50px!important;
+    margin-top: 0!important;
+}
 .home-col{
     text-align: center;
     margin: 0 auto;
     width: 287px;
-    margin-bottom: 50px 
 }
 .wid-icon{
     font-size: 65px;
@@ -237,11 +247,12 @@ p{
     margin-left: 20px;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 40px
+    margin-bottom: 50px
 }
 .rev{
     text-align: center;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 50px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -293,8 +304,8 @@ p{
     text-align: center;
 }
 .ftr-nav{
-    margin-top: 45px;
-    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 .ftr-txt-head{   
     margin-bottom: 13px;
@@ -317,12 +328,18 @@ input{
 .quick-links{
     color: #ffffff;
 }
+.quick-links>p{
+    margin-bottom: 0!important;
+}
 .ftr-icons{
     color: #ffffff;
     font-size: 24px;
 }
 .ftr-info{
     margin-top: 20px;
+}
+.ftr-info>p{
+    margin-bottom: 15px!important;
 }
 
 /*About Page CSS*/
@@ -340,7 +357,7 @@ input{
     margin-bottom: 40px
 }
 .team-txt-head{
-    margin-top: 25px;    
+    margin-top: 40px;    
     margin-bottom: 40px;
     color: #ffffff;
     text-align: center;
@@ -516,7 +533,7 @@ input{
     width: 100%!important;
     max-width: 700px;
 }
-.modal-content-gal>p{
+.modal-gal-txt{
     color: #fff;
     margin-top: 10px;
     font-size: 20px;
@@ -537,35 +554,50 @@ input{
     border-radius: 30px;
 }
 .team-imgs-gal{
-    max-width: 243px;
+    max-width: 500px;
     width: 100%;
-}
-.con-txt{
-    margin-bottom: 50px!important;
-}
+}   
 .con-form{
-    border: 3px solid #2d2d2d!important;
+    border: 1px solid #2d2d2d!important;
     margin-bottom: 30px!important;
-    max-width: 503px!important;
+    max-width: 290px!important;
+}
+.con-form-txt-plchldr{
+    margin-top: 50px;
 }
 .con-form-txt{
     border-radius: 8px; 
     max-width: 503px!important;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 35px!important;
     height: 120px!important;
-    border: 3px solid #2d2d2d!important;
+    border: 1px solid #2d2d2d!important;
 }
 .con-form-one{
     padding-top: 20px;
-    margin-right: 50px;
     padding-bottom: 30px;
+}
+.con-form-one>p{
+    margin-bottom: 20px!important;
+}
+.con-form-lbl-txt{
+    margin-top: 20px;
+}
+.con-btn{
+    max-width: 503px!important;
+    width: 100%;
 }
 .con-img{
     max-width: 410px;
     width: 100%;
     border: 3px solid #2d2d2d;
     border-radius: 8px;
+}
+.about-txt>p>iframe{
+        width: 100%;
+    }
+.about-txt>div>span>iframe{
+    width: 50%
 }
 h2 a{
     color: #2d2d2d;
@@ -580,4 +612,7 @@ h2 a:hover{
 }
 .text-form{
     color: #2d2d2d;
+}
+.con-form-txt-plchldr::placeholder{
+    color: #477838!important;
 }

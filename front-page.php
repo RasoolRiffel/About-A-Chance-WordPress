@@ -68,6 +68,10 @@
 
 	    <div class="container">
 	      <div class="row">
+	      	<div class="col-md-12 heading-one-txt">
+	      		<h1><?php the_field('heading_one_text'); ?></h1>
+	      	</div>
+
 	        <div class="col-md-4">
 				<a href="<?php the_field('option_1_image_link'); ?>"><img src="<?php the_field('option_1_image') ?>" class="team-img-wid"></a>
 				<h2 class="text-center"><?php the_field('option_1_title') ?></h2>

@@ -25,6 +25,12 @@ get_header();
 			  ?>
 			</div></a>
 		<?php the_excerpt();?>
+		<?php
+			if (($wp_query->current_post + 1) < ($wp_query->post_count)) {
+			   echo '<div class="post-item-divider"><hr></div>';
+			}
+		?>
+		
 		
 		<?php 
 		endwhile;
