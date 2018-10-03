@@ -44,7 +44,7 @@
 			  	</div>
 			  	<div class="row">
 			  		<div class="col-md-4 modal-col-img">
-			  			<img src="<?php the_field('image_1_modal') ?>" class="team-imgs">
+			  			<img src="<?php the_field('image_1') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
 			  			<h2 class="head-E"><?php the_field('image_1_modal_heading') ?></h2>

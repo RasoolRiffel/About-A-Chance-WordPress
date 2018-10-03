@@ -296,6 +296,7 @@ strong { font-weight: 500;}
     font-size: 25px;
     margin-left: 15px;
     margin-right: 20px;
+    font-weight: bold;
 }
 .ftr-col{
     margin-top: 6px;
@@ -492,12 +493,6 @@ input{
 }
 .modal-col-img>img{
     margin-left: 3px!important;
-}
-.modal-col-hd>h2{
-    text-align: center;
-}
-.modal-col-hd>p{
-    text-align: center;
 }
 .modal-col-img>p{
     margin-top: 10px;

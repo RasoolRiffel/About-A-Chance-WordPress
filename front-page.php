@@ -70,6 +70,7 @@
 	      <div class="row">
 	      	<div class="col-md-12 heading-one-txt">
 	      		<h1><?php the_field('heading_one_text'); ?></h1>
+	      		<p class="about-txt"><?php the_field('intro_text'); ?></p>
 	      	</div>
 
 	        <div class="col-md-4">
