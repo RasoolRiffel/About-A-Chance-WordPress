@@ -780,3 +780,7 @@ li.comment {
     border-top: 1px solid #477838;
     padding-top: 25px; 
 }
+.reply>a:hover{
+    color: #477838;
+    background-color:#c1c1c1!important;
+}
