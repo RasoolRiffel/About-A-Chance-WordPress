@@ -76,7 +76,7 @@
     </div>
 
     <div class="container ftr-info">
-        <p class="left text-center">Copyright 2018 <i class="far fa-copyright"></i> About A Chance</p>
+        <p class="left text-center">Copyright 2018 <i class="far fa-copyright"></i><strong> About A Chance</strong></p>
         <p class="right text-center">Website design and development by <strong>BLUEPRINT</strong></p>
       </div>
 </footer>
