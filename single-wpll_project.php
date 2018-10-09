@@ -36,20 +36,31 @@ comment_form($args);
 
 <div class="container">
 	<span class="commentlist">
-	<?php
-		//Gather comments for a specific page/post 
-		$comments = get_comments(array(
-			'post_id' => 'riffel',
-			'status' => 'approve' //Change this to the type of comments to be displayed
-		));
+		<?php
+			//Gather comments for a specific page/post 
+			$comments = get_comments(array(
+				'post_id' => 'riffel',
+				'status' => 'approve' //Change this to the type of comments to be displayed
+			));
 
-		//Display the list of comments
-		wp_list_comments(array(
-			'per_page' => 2, //Allow comment pagination
-			'reverse_top_level' => false //Show the oldest comments at the top of the list
-		), $comments);
-	?>
-</span>
+			//Display the list of comments
+			wp_list_comments(array(
+				'per_page' => 2, //Allow comment pagination
+				'reverse_top_level' => false //Show the oldest comments at the top of the list
+			), $comments);
+		?>
+	</span>
+
+	<?php paginate_comments_links( $args ) ?>
+	<?php $args = array(
+	'base' => add_query_arg( 'cpage', '%#%' ),
+	'format' => '',
+	'total' => $max_page,
+	'current' => $page,
+	'echo' => true,
+	'add_fragment' => '#comments'
+					
+);?>
 	
 </div>
 
