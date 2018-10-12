@@ -319,7 +319,7 @@ ul{
     color: #ffffff;
 }
 input{
-    border-radius: 8px;
+    border-radius: 8px!important;
     border: 0;
     color: #2d2d2d;
     max-width: 240px;
@@ -586,7 +586,7 @@ input{
 }
 .con-btn{
     max-width: 503px!important;
-    width: 100%;
+    width: 100%!important;
 }
 .con-img{
     max-width: 410px;
@@ -783,4 +783,13 @@ li.comment {
 .reply>a:hover{
     color: #477838;
     background-color:#c1c1c1!important;
+}
+.nf-field-label label{
+    margin-bottom: 23px!important;
+}
+.nf-field-container{
+    margin-bottom: 0!important;
+}
+.field-wrap .email-wrap{
+    margin-top: 20px;
 }

@@ -100,7 +100,19 @@ add_filter( 'wp_nav_menu_objects', 'oenology_add_menu_parent_class' );
 
 add_post_type_support( 'page', 'excerpt' );
 
-add_theme_support( 'post-thumbnails' ); 
+add_theme_support( 'post-thumbnails' );
+
+add_theme_support('post-formats', array('gallery'));
+
+
+// add post-formats to post_type 'page'
+add_action('init', 'my_theme_slug_add_post_formats_to_page', 11);
+
+function my_theme_slug_add_post_formats_to_page(){
+    add_post_type_support( 'page', 'post-formats' );
+    register_taxonomy_for_object_type( 'post_format', 'page' );
+}
+
 
 /* Custom Post Types*/
 function create_posttype() {
@@ -202,3 +214,12 @@ $results = new WP_Query(array(
         'comment_status' => '1'
     )
 ));
+
+function custom_form_css_add_nf_styles( $form_id ) {
+    if( $form_id == 1 ) {
+        echo '<style>
+        .ninja-forms-form-wrap{background:red}
+        </style>';
+    }
+}
+add_action ( 'init', 'custom_form_css_add_nf_styles' );

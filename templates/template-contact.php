@@ -28,11 +28,8 @@ get_header();?>
           <div class="con-txt"><strong class="head-E">ADDRESS:</strong><br> <?php the_field('location_text') ?></div>
             </div>
             <div class="col-md-6 col-sm-12 con-form-txt-plchldr">
-              <input type="text" name="Name" placeholder="NAME" class="con-form ">
-              <input type="text" name="Name" placeholder="EMAIL" class="con-form"><br>
-              <input type="text" name="Name" placeholder="MESSAGE"  class="con-form-txt"><br>
-              <button class="ftr-btn con-btn">
-                <?php the_field('send_button_text'); ?>                
+             
+                <?php the_field('contact_form'); ?>                
               </button>
             </div>
           </div>

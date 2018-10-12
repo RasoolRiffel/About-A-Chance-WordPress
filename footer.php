@@ -28,10 +28,22 @@
       <div class="container">
         <div class="row ftr-nav">
           <div class="col-md-4 col-sm-6 col-xs-12 ftr-bar">
-            <h2 class="ftr-txt-head">SUBSCRIBE</h2>
-            <input type="" placeholder="Name">
-            <input type="" placeholder="Email"><br>
-            <button class="ftr-btn">SUBSCRIBE</button>
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="https://bquest.us19.list-manage.com/subscribe/post?u=9f35c6b2151fe8273d1925ca0&amp;id=31ab9738db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                  <h2 class="ftr-txt-head">SUBSCRIBE</h2>
+                <div class="mc-field-group ftr-bar">
+                  <input type="text" value="" placeholder="Full Name" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group ftr-bar">
+                  <input type="email" value="" placeholder="Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="clear ftr-bar"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button ftr-btn">SUBSCRIBE</button> </div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 ftr-bar">
             <h2 class="ftr-txt-head">QUICK LINKS</h2>
