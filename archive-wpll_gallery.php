@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Archives
+Template Name: Archives Gallery
 */
 
 get_header();
@@ -11,13 +11,11 @@ get_header();
 
 	<div class="about-txt">
 
-		<h1>PROJECTS</h1>
-
 		<?php if (have_posts()): 
 		while (have_posts()) : the_post();?>
 		
 
-		<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+		<h1><?php the_title();?></h1>
 			<a href="<?php the_permalink();?>"><div class="banner-img-arc-prct">
 			<?php if(has_post_thumbnail() ):
 				the_post_thumbnail();	

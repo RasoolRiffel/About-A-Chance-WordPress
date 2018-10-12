@@ -143,6 +143,46 @@ function create_posttype() {
 }
 add_action( 'init', 'create_posttype' );
 
+
+/* Custom Post Types*/
+function create_gallery_posttype() {
+  register_post_type( 'wpll_gallery',
+    array(
+      'labels' => array(
+        'name' => __( 'Galleries' ),
+        'singular_name' => __( 'Gallery' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'supports' => array(
+      	'title', 
+      	'editor', 
+      	'thumbnail',
+      	'page-attributes',
+      	'custom-fields',
+      	'post-formats'
+      ),
+      'rewrite' => array('slug' => 'galleryqwe'),
+    )
+  );
+  $wpll_gallery = get_posts(array(
+                            'post_type' => 'Gallery',
+                            'posts_per_page' => 10,
+                            'nopaging' => true,
+                            'meta_query' => array(
+                                array(
+                                    'key' => 'business_type',
+                                    'value' => '"' . get_search_query()  . '"',
+                                    'compare' => 'LIKE'
+                                )
+                            )
+                        ));
+}
+add_action( 'init', 'create_gallery_posttype' );
+
+
+
+
 // Modify comments header text in comments
 add_filter( 'genesis_title_comments', 'child_title_comments');
 function child_title_comments() {
@@ -214,12 +254,3 @@ $results = new WP_Query(array(
         'comment_status' => '1'
     )
 ));
-
-function custom_form_css_add_nf_styles( $form_id ) {
-    if( $form_id == 1 ) {
-        echo '<style>
-        .ninja-forms-form-wrap{background:red}
-        </style>';
-    }
-}
-add_action ( 'init', 'custom_form_css_add_nf_styles' );

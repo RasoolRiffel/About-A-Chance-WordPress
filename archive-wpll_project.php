@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Archives
+Template Name: Archives Projects
 */
 
 get_header();
@@ -24,8 +24,9 @@ get_header();
 			endif;
 			  ?>
 			</div></a>
-		<?php the_excerpt();		
-		
+		<?php the_excerpt();?>
+			
+		<?php 
 		endwhile;
 
 		else: 
