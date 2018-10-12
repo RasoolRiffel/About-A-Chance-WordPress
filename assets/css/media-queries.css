@@ -3,205 +3,204 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	/*Nav bar*/
-	.btn-col{
-    	width: 100%;
-    	padding-right: 0;
-	}
-	.don-nav{
-    	width: 730px;
-    }
-	/*Call to Action buttons*/
-	.ftr-btn{
-		margin-left: 0;
-	}
-	.ftr-p{
-    	font-size: 25px;
-    	margin-left: 20px;
-    	margin-right: 20px;
-	}
+/*Nav bar*/
+.btn-col{
+	width: 100%;
+	padding-right: 0;
+}
+.don-nav{
+	width: 730px;
+}
+/*Call to Action buttons*/
+.ftr-btn{
+	margin-left: 0;
+}
+.ftr-p{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
-	.ftr-bar{
-		text-align: center;
-	}
-	.about-txt{
-	    max-width: 530px!important;
-	}
-	.team-img-wid{
-	    margin-left: 310px!important; 
-	}
-	.modal-col-img>img{
-		margin-left:  0!important;
-	}
-	.modal-col-img>p{
-		margin-left:  0!important;
-	}
-	.modal{
-		padding-top: 280px
-	}
-	.modal-img{
-		padding-top: 170px!important;
-		padding-left: 100px;
-	}
-	.logo-head{
-	    margin-left: 100px;
-   		max-width: 450px;
-	}
-	.close-cntnr{
-		width: 93%;
-	}
-	.con-form{
-		max-width: 250px!important;
-	}
+.ftr-bar{
+	text-align: center;
+}
+.about-txt{
+    max-width: 530px!important;
+}
+.team-img-wid{
+    margin-left: 310px!important; 
+}
+.modal-col-img>img{
+	margin-left:  0!important;
+}
+.modal-col-img>p{
+	margin-left:  0!important;
+}
+.modal{
+	padding-top: 280px
+}
+.modal-img{
+	padding-top: 170px!important;
+	padding-left: 100px;
+}
+.logo-head{
+    margin-left: 100px;
+		max-width: 450px;
+}
+.close-cntnr{
+	width: 93%;
+}
+.con-form{
+	max-width: 250px!important;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 /*contact info and social media icons*/ 
-	
-	.modal-col-img{
-		width: 28.3333%!important;
-	}
-	.logo-head{
-		margin-left: 0;
-		max-width: 250px;
-	}
-	.modal{
-		padding-top: 320px
-	}
-	
-	.con-top{
-		text-align: left;
-	}
-	.header-icons{
-    	display: inline-block;
-   		color: #477838;
-    	font-size: 20px;
-    	padding-left: 20px;
-	}
-    /*Logo and Nav bar*/
-	
-	.btn-col{
-    	width: 13%;
-    	padding-right: 0;
-	}
-	.don-nav{
-    	width: 100px;
-    }
-	.ftr-cta{
-	    margin-top: 0;
-	    text-align: left;
-	}
-	.ftr-bar{
-		text-align: left;
-	}
-	::placeholder{
-		text-align: left;
-	}
-	.ftr-btn{
-    	max-width: 180px;
-	}
-	.ftr-icons{
-		margin-top: 35px;
-	}
-	.about-txt{
-	    max-width: 630px;
-	    margin: 0 auto;	
-	    margin-bottom: 50px!important;
-	}
-	.left{
-		float: left!important;
-	}
-	.right{
-		float: right!important;
-	}
-	.team-img-wid{
-	    margin-left: 110px!important; 
-	}
-	.site-nav.responsive {position: relative;display: none;}
-	.site-nav .responsive .menu-btn{
-	    position: absolute;
-	    right: 0;
-	    top: 0;
-	}
-	.form-style{
-	    color: #477838;
-	    margin-left: 607px;
-	}
-	.team-imgs-gal{
-		margin-left: 0;
-	}
-	.modal-content-gal>p{
-		margin-left: 0;
-	}
-	.close-cntnr{
-		width: 70%;
-	}
-	.con-form{
-	    border: 1px solid #2d2d2d!important;
-	    margin-bottom: 30px!important;
-	    max-width: 120px!important;
-	}
-	.con-form-txt-plchldr{
-	    margin-top: 0;
-	}
+
+.modal-col-img{
+	width: 28.3333%!important;
+}
+.logo-head{
+	margin-left: 0;
+	max-width: 250px;
+}
+.modal{
+	padding-top: 320px
+}
+
+.con-top{
+	text-align: left;
+}
+.header-icons{
+	display: inline-block;
+		color: #477838;
+	font-size: 20px;
+	padding-left: 20px;
+}
+/*Logo and Nav bar*/
+
+.btn-col{
+	width: 13%;
+	padding-right: 0;
+}
+.don-nav{
+	width: 100px;
+}
+.ftr-cta{
+    margin-top: 0;
+    text-align: left;
+}
+.ftr-bar{
+	text-align: left;
+}
+::placeholder{
+	text-align: left;
+}
+.ftr-btn{
+	max-width: 180px;
+}
+.ftr-icons{
+	margin-top: 35px;
+}
+.about-txt{
+    max-width: 630px;
+    margin: 0 auto;	
+    margin-bottom: 50px!important;
+}
+.left{
+	float: left!important;
+}
+.right{
+	float: right!important;
+}
+.team-img-wid{
+    margin-left: 110px!important; 
+}
+.site-nav.responsive {position: relative;display: none;}
+.site-nav .responsive .menu-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.form-style{
+    color: #477838;
+    margin-left: 607px;
+}
+.team-imgs-gal{
+	margin-left: 0;
+}
+.modal-content-gal>p{
+	margin-left: 0;
+}
+.close-cntnr{
+	width: 70%;
+}
+.con-form{
+    border: 1px solid #2d2d2d!important;
+    margin-bottom: 30px!important;
+    max-width: 120px!important;
+}
+.con-form-txt-plchldr{
+    margin-top: 0;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    /*Logo and Nav bar*/
-    .logo-col{
-    	max-width: 25.333333%; 
-    }
-	.menu-btn{
-    	display: none;
-	}
-	.logo-head{
-    	max-width: 290px;
-	}
-	.nav-col{
-    	width: 63.5%;
-    	display: inline-block;
-	}
-	.btn-col{
-    	width: 11%;
-    	padding-right: 0;
-	}
-	/*widgets*/
-    .wid-icon{
-	    margin-left: 0;
-	}
-	/*footer*/
-	.ftr-btn{
-	    margin-left: 0;
-	    max-width: 230px
-	}
-	.about-txt{
-	    max-width: 760px !important;
-	}
-	.team-img-wid{
-	    margin-left: 140px!important; 
-	}
-	.modal-col-img>img{
-		margin-left: 50px!important;
-	}
-	.modal-col-img>p{
-		margin-top: 10px;
-		margin-left: 50px!important;
-	}
-	.form-style{
-	    color: #477838;
-	    margin-left: 796px;
-	}
-	.modal-content-gal{
-    	width: 37%!important;
-	}
-	.close-cntnr{
-		width: 80%;
-	}
-	.con-form{
-	    border: 1px solid #2d2d2d!important;
-	    margin-bottom: 30px!important;
-	    max-width: 180px!important;
-	}
+/*Logo and Nav bar*/
+.logo-col{
+	max-width: 25.333333%; 
+}
+.menu-btn{
+	display: none;
+}
+.logo-head{
+	max-width: 290px;
+}
+.nav-col{
+	width: 63.5%;
+	display: inline-block;
+}
+.btn-col{
+	width: 11%;
+	padding-right: 0;
+}
+/*widgets*/
+.wid-icon{
+    margin-left: 0;
+}
+/*footer*/
+.ftr-btn{
+    margin-left: 0;
+    max-width: 230px
+}
+.about-txt{
+    max-width: 760px !important;
+}
+.team-img-wid{
+    margin-left: 140px!important; 
+}
+.modal-col-img>img{
+	margin-left: 50px!important;
+}
+.modal-col-img>p{
+	margin-top: 10px;
+	margin-left: 50px!important;
+}
+.form-style{
+    color: #477838;
+    margin-left: 796px;
+}
+.modal-content-gal{
+	width: 37%!important;
+}
+.close-cntnr{
+	width: 80%;
+}
+.con-form{
+    border: 1px solid #2d2d2d!important;
+    margin-bottom: 30px!important;
+    max-width: 180px!important;
 }
