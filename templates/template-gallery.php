@@ -23,10 +23,7 @@ get_header();	 ?>
 
 				else: 
 					echo "<p>No content found</p>";
-				endif;?>
-
-				
-
+				endif;?>				
         <div class="gal-imgs">
         	<div class="row gal-row">
 	          <div class="col-md-4 col-sm-4 text-center">

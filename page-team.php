@@ -74,7 +74,7 @@
 			  			<img src="<?php the_field('image_2') ?>" class="team-imgs">
 			  		</div>
 			  		<div class="col-md-8">
-			  			<h2 class="head-E"><?php the_field('image_modal_heading_2') ?></h2>
+			  			<h2 class="head-E"><?php the_field('image_2_text') ?></h2>
 			    		<p><?php the_field('image_modal_text_2') ?></p>
 			  		</div>
 			  	</div>

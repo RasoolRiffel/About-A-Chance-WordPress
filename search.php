@@ -14,9 +14,11 @@ get_header();?>
 
 	<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 	<?php the_excerpt();?>
-	<div class="banner-img">
-    	<?php the_post_thumbnail(); ?>
-    </div>
+	<?php
+			if (($wp_query->current_post + 1) < ($wp_query->post_count)) {
+			   echo '<div class="post-item-divider"><hr></div>';
+			}
+		?>
 
 
 	<?php 

@@ -24,7 +24,7 @@ h3{
     font-weight: bold!important;
 }
 hr{
-    background-color: #477838;
+    background-color: #40AD48;
     border: none;
     height: 1px!important;
 }
@@ -40,6 +40,13 @@ a:hover{
 ul{
     list-style: none;
 }
+.read-more-a>a{
+    color: #40AD48!important;
+}
+.read-more-a>a:hover{
+    color: #2d2d2d;
+    font-weight: 700;
+}
 /* Email and social media icons */
 .con-top{
     padding-top: 20px;
@@ -50,7 +57,7 @@ ul{
     margin-bottom: 50px!important;
 }
 .head-E{
-    color: #477838;
+    color: #40AD48;
     font-weight: bold;
 }
 .header-icons{
@@ -100,12 +107,12 @@ ul{
     text-decoration: none;
 }
 .site-header nav ul li a:hover{
-    color: #477838;
+    color: #40AD48;
     background-color: #c1c1c1;
 }
 .site-header nav ul li.current-menu-item a:link,
 .site-header nav ul li.current-menu-item a:visited{
-    color: #477838;
+    color: #40AD48;
     font-weight: bold;
 }
 
@@ -137,7 +144,7 @@ ul{
 }
 .menu-btn{
     display: block;
-    color: #477838;
+    color: #40AD48;
     font-size: 30px;
     margin-top: 17px;
     float: right!important;
@@ -169,7 +176,7 @@ ul{
     text-decoration: none;
 }
 .blog-nav>a:hover{
-    color: #477838;
+    color: #40AD48;
 }
 .btn-col{
     width: 97%;
@@ -177,7 +184,7 @@ ul{
 }
 .don-nav{
     width:280px; 
-    background-color: #2d2d2d!important;
+    background-color:  #40AD48!important;
     font-size: 16px;
     font-family: Myriad Pro;
     color: #fff!important;
@@ -190,13 +197,13 @@ ul{
     color: #2d2d2d;
 }
 .about-txt>h1>a:hover{
-    color: #477838;
+    color: #40AD48;
     text-decoration: none;
 }
 .don-nav:hover{
-    color: #477838!important;
+    color: #40AD48!important;
     text-decoration: none;
-    background-color: #c1c1c1!important;
+    background-color: #2d2d2d!important;
 }
 /*Banner Image*/
 .banner-img>img{
@@ -229,12 +236,12 @@ ul{
 }
 .wid-icon{
     font-size: 65px;
-    color: #477838;
+    color: #40AD48;
 }
 
 /*Team div*/
 .team-home{
-    background-color: #477838;
+    background-color: #40AD48;
 }
 .team-img-wid{
     max-width: 100px!important;
@@ -283,15 +290,15 @@ ul{
     max-width: 240px;
     width: 100%;
     height: 35px;
-    background-color: #2d2d2d;
+    background-color: #40AD48;
     font-size: 16px;
     color: #ffffff;
     border-radius: 8px;
     border: 0;
 }
 .ftr-btn:hover{
-    background-color: #c1c1c1;
-    color: #477838;
+    background-color: #2d2d2d;
+    color: #40AD48;
 }
 .ftr-cta{
     margin-top: 0;
@@ -350,11 +357,17 @@ input{
 }
 
 /*About Page CSS*/
+.about-txt>.fb_iframe_widget{
+    margin-left: 140px;
+}
 .about-txt{
-    text-align: center;
     max-width: 290px;
     width:100%;
     margin: 0 auto; 
+}
+.hme-mid-btn{
+    margin-left: 70px!important;
+    margin-bottom: 50px;
 }
 /*team page*/
 .team-txt-pg{
@@ -382,7 +395,7 @@ input{
   margin: 300px auto;
 }
 .team-maodal-header{
-    color: #477838;
+    color: #40AD48;
 }
 .team-modal-img{
     margin-top: 15px;
@@ -392,6 +405,8 @@ input{
 }
 .head-col{
     width:700px;
+    max-height: 154px;
+    height: 100%;
 }
 /*what we do page*/
 .wwd{
@@ -423,14 +438,14 @@ input{
 }
 .res-lnks:hover{
     text-decoration: none;
-    color: #477838;
+    color: #40AD48;
 }
 .cntct-row{
     margin-top: 30px;
     margin-bottom: 50px;
 }
 .form-style{
-    color: #477838;
+    color: #40AD48;
     margin-left: 675px;
 }
 .text-form{
@@ -537,7 +552,7 @@ input{
     font-size: 20px;
 }
 .close-modal{
-    color: #477838!important;
+    color: #40AD48!important;
     font-size: 35px!important;
     opacity: 1!important;
     text-shadow: none!important;
@@ -601,18 +616,18 @@ h2 a{
     color: #2d2d2d;
 }
 h2 a:hover{
-    color: #477838;
+    color: #40AD48;
     text-decoration: none!important;
 }
 .cntct-mps-cntnr h3{
-    color: #477838;
+    color: #40AD48;
     margin-top: 10px;
 }
 .text-form{
     color: #2d2d2d;
 }
 .con-form-txt-plchldr::placeholder{
-    color: #477838!important;
+    color: #40AD48!important;
 }
 
 /* ## Comments
@@ -774,11 +789,11 @@ li.comment {
 }
 .comment-body{
     margin-top: 50px!important;
-    border-top: 1px solid #477838;
+    border-top: 1px solid #40AD48;
     padding-top: 25px; 
 }
 .reply>a:hover{
-    color: #477838;
+    color: #40AD48;
     background-color:#c1c1c1!important;
 }
 .nf-field-label label{

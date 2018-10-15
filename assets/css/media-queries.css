@@ -58,7 +58,9 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 /*contact info and social media icons*/ 
-
+footer>h2{
+	font-size: 20px!important;
+}
 .modal-col-img{
 	width: 28.3333%!important;
 }
@@ -75,7 +77,7 @@
 }
 .header-icons{
 	display: inline-block;
-		color: #477838;
+		color: #40AD48;
 	font-size: 20px;
 	padding-left: 20px;
 }
@@ -89,6 +91,7 @@
 	width: 100px;
 }
 .ftr-cta{
+	font-size: 18px!important;
     margin-top: 0;
     text-align: left;
 }
@@ -125,7 +128,7 @@
     top: 0;
 }
 .form-style{
-    color: #477838;
+    color: #40AD48;
     margin-left: 607px;
 }
 .team-imgs-gal{
@@ -150,6 +153,9 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 /*Logo and Nav bar*/
+.ftr-cta{
+	font-size: 20px!important;
+}
 .logo-col{
 	max-width: 25.333333%; 
 }
@@ -190,7 +196,7 @@
 	margin-left: 50px!important;
 }
 .form-style{
-    color: #477838;
+    color: #40AD48;
     margin-left: 796px;
 }
 .modal-content-gal{

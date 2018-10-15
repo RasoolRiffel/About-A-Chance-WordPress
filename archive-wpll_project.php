@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Archives Projects
+Template Name: Archives
 */
 
 get_header();
@@ -24,8 +24,18 @@ get_header();
 			endif;
 			  ?>
 			</div></a>
-		<?php the_excerpt();?>
-			
+		<span class="read-more-a">
+			<?php echo get_the_excerpt();?>
+			<a href="<?php the_permalink(); ?>" >READ MORE</a>
+		</span>
+		
+		<?php
+			if (($wp_query->current_post + 1) < ($wp_query->post_count)) {
+			   echo '<div class="post-item-divider"><hr></div>';
+			}
+		?>
+		
+		
 		<?php 
 		endwhile;
 

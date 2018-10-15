@@ -73,20 +73,28 @@
 	      		<p class="about-txt"><?php the_field('intro_text'); ?></p>
 	      	</div>
 
-	        <div class="col-md-4">
-				<a href="<?php the_field('option_1_image_link'); ?>"><img src="<?php the_field('option_1_image') ?>" class="team-img-wid"></a>
-				<h2 class="text-center"><?php the_field('option_1_title') ?></h2>
-				<p class="home-col"><?php the_field('option_1_description') ?></p>
+      		<div class="col-md-4">
+      			<span class="wid-con-ht">
+					<a href="<?php the_field('option_1_image_link'); ?>"><img src="<?php the_field('option_1_image') ?>" class="team-img-wid"></a>
+					<h2 class="text-center"><?php the_field('option_1_title') ?></h2>
+					<p class="home-col"><?php the_field('option_1_description') ?></p>
+				</span>
+				<a href="<?php the_field('read_more_link_1') ?>"><button class="ftr-btn hme-mid-btn">READ MORE</button></a>
 	        </div>
+	      	
+	       
 	        <div class="col-md-4">
 				<a href="<?php the_field('option_2_image_link'); ?>"><img src="<?php the_field('option_2_image') ?>" class="team-img-wid"></a>
 				<h2 class="text-center"><?php the_field('option_2_title') ?></h2>
 				<p class="home-col"><?php the_field('option_2_description') ?></p>
+				<a href="<?php the_field('read_more_link_2') ?>"><button class="ftr-btn hme-mid-btn">READ MORE</button></a>
 	        </div>
+
 	        <div class="col-md-4">
 	        	<a href="<?php the_field('option_3_image_link'); ?>"><img src="<?php the_field('option_3_image') ?>" class="team-img-wid"></a>
 				<h2 class="text-center"><?php the_field('option_3_title') ?></h2>
 				<p class="home-col"><?php the_field('option_3_description') ?></p>
+				<a href="<?php the_field('read_more_link_3') ?>"><button class="ftr-btn hme-mid-btn">READ MORE</button></a>
 	        </div>
 	      </div>
 	    </div>
