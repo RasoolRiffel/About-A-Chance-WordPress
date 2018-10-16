@@ -9,7 +9,7 @@ get_header();	 ?>
 	</span>
 	
 
-    <div class="container">
+    <div class="container" <?php post_class(); ?>>
 
         <?php 
 			if (have_posts()): 

@@ -68,16 +68,10 @@
               <p><strong>PHONE:</strong> <?php the_field('phone_number'); ?></p>
 
               <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="col-md-3 col-md-offset-3  col-sm-6 col-xs-6">
                   <a href="#" onclick="toggle_visibility('foo');"><i class="fas fa-search ftr-icons"></i></a>
                 </div>
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="<?php the_field('social_media_links_-_instagram'); ?>"><i class="fab fa-instagram ftr-icons"></i></a>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-3">
-                  <a href="<?php the_field('social_media_links_-_twitter'); ?>"><i class="fab fa-twitter-square ftr-icons"></i></a>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                   <a href="<?php the_field('social_media_links_-_facebook'); ?>"><i class="fab fa-facebook-square ftr-icons"></i></a>
                 </div>                
               </div>

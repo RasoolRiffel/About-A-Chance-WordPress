@@ -143,9 +143,8 @@ function create_posttype() {
 }
 add_action( 'init', 'create_posttype' );
 
-
 /* Custom Post Types*/
-function create_gallery_posttype() {
+/*function create_gallery_posttype() {
   register_post_type( 'wpll_gallery',
     array(
       'labels' => array(
@@ -162,7 +161,7 @@ function create_gallery_posttype() {
       	'custom-fields',
       	'post-formats'
       ),
-      'rewrite' => array('slug' => 'galleryqwe'),
+      'rewrite' => false,
     )
   );
   $wpll_gallery = get_posts(array(
@@ -178,7 +177,7 @@ function create_gallery_posttype() {
                             )
                         ));
 }
-add_action( 'init', 'create_gallery_posttype' );
+add_action( 'init', 'create_gallery_posttype' );*/
 
 
 

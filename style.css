@@ -345,6 +345,23 @@ input{
 .quick-links>p{
     margin-bottom: 0!important;
 }
+.ftr-bar>.ftr-btn{
+    background-color: #2d2d2d!important;
+}
+
+
+
+
+
+.format-gallery { background: #eee !important; }
+
+
+
+
+
+
+
+
 .ftr-icons{
     color: #ffffff;
     font-size: 24px;
